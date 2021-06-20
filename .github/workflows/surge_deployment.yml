@@ -45,7 +45,7 @@ jobs:
         run: npm install -g surge
         
       - name: Deplay
-        run: surge ./build first_react_depployment ${{sescrets.a1}}
+        run: surge ./build first_react_depployment ${{secrets.a1}}
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
